@@ -1,4 +1,4 @@
-package com.example.android.ayu_1202150288_studycase5;
+package com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

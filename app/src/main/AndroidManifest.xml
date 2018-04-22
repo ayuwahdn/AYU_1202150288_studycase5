@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.ayu_1202150288_studycase5">
+    package="com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -20,14 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddToDo"></activity>
-        <activity android:name=".ListActivity" />
-        <activity android:name=".SettingsActivity"
+        <activity android:name="com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288.AddToDo"></activity>
+        <activity android:name="com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288.ListActivity" />
+        <activity android:name="com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288.SettingsActivity"
             android:label="Settings"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/></activity>
+                android:value="com.example.android.Susulan_Modul5_AnnisaAyuWahdini_1202150288.MainActivity"/></activity>
     </application>
 
 </manifest>
